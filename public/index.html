@@ -62,13 +62,19 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#projet">Projet</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#principes">Principes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#planact">Plan d'action</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partenaires">Partenaires</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#todolist">TODO Liste</a>
                     </li>
                 </ul>
             </div>
@@ -83,19 +89,36 @@
     <section id="intro" class="intro-section">
         <div class="container">
 			<div ng-include="'/Pages/intro.html'"></div>
-			<a class="btn btn-default page-scroll" href="#services">Découvrez le projet...</a>
+			<a class="btn btn-default page-scroll" href="#projet">Découvrez le projet...</a>
         </div>
     </section>
 
 
-    <!-- Services -->
-    <section id="services" class="services-section">
+    <!-- Projet -->
+    <section id="projet" class="projet-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
+            <div ng-include="'/Pages/projet.html'"></div>
+        </div>
+    </section>
+    
+    <!-- Principes -->
+    <section id="principes" class="principes-section">
+        <div class="container">
+            <div ng-include="'/Pages/principes.html'"></div>
+        </div>
+    </section>
+    
+    <!-- Plan d'action -->
+    <section id="planact" class="planact-section">
+        <div class="container">
+            <div ng-include="'/Pages/planact.html'"></div>
+        </div>
+    </section>
+    
+    <!-- Partenaires -->
+    <section id="partenaires" class="partenaires-section">
+        <div class="container">
+            <div ng-include="'/Pages/partenaires.html'"></div>
         </div>
     </section>
 
@@ -106,6 +129,10 @@
             <div ng-include="'/Pages/contact.html'"></div>
         </div>
     </section>
+    
+    
+    
+    
     
     
     <!-- TODO List -->

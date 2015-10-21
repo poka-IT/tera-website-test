@@ -38,7 +38,28 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.services-section {
+.projet-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.principes-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.planact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.partenaires-section {
     height: 100%;
     padding-top: 50px;
     text-align: center;
