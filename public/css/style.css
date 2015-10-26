@@ -4,19 +4,36 @@
 /****************************/
 /*	Menue de navigation		*/
 
-
-#typotera	{	max-height:100%;	}
+/*	typo tera	*/
+#typotera	{	max-height:100%;
+				margin-left:80px;}
 #ateraimg	{	padding:0px;		}
 
-
+/*	mise en forme Logo tera	*/
+@media all and (max-width:768px)	{
+								#logoPL	{	padding:3px;	
+											position:absolute;
+											top:0px;
+											left:0px;
+											height:50px;	}
+									}
+							
+#logoPL		{	max-height:100%;
+				padding:3px;	
+				position:absolute;
+				top:0px;
+				left:0px;	}
 /*****************************************/
 /*		Section de page principale		*/
 
 /*	page Intro	*/
+#intro	{	background: url("../img/carbon_fibre/carbon_fibre.png") repeat;		}
 
 /*	page Projet	*/
 
+
 /*	page Principes	*/
+#principes	{	}	
 
 /*	page planification	*/
 
