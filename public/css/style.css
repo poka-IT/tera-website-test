@@ -9,18 +9,20 @@
 #ateraimg	{	padding:0px;		}
 
 
+/*****************************************/
+/*		Section de page principale		*/
 
+/*	page Intro	*/
 
+/*	page Projet	*/
 
+/*	page Principes	*/
 
+/*	page planification	*/
 
+/*	page partenaire	*/
 
-
-
-
-
-
-
+/*	page contact	*/
 
 
 #sign	{	margin-bottom: 40px;	}
@@ -29,4 +31,4 @@
 
 
 
-intro	{	background: url("../img/carbon_fibre/carbon_fibre.png") repeat;		}
+#intro	{	background: url("../img/carbon_fibre/carbon_fibre.png") repeat;		}
